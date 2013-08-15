@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+			<View ns="Ti.Map" id="map">
+			<Annotation id="annotation1"/>
+			<Annotation title="Palo Alto" latitude="37.47" longitude="-122.12"/>
+			<Annotation title="Dominion Enterprises" latitude="36.8476379" longitude="-76.2916683"/>
+			<Annotation id="annotation2" platform="android"/>
+			<Annotation id="annotation3" platform="ios"/>
+			<Require src="annotationView" title="Sunnyvale" latitude="37.37" longitude="-122.03"/>
+			<Require src="annotationView" title="Dominion Enterprises" latitude="36.8476379" longitude="-76.2916683"/>
+			<Require src="overlay" platform="ios"/>
+			</View>
+	</Window>
+</Alloy>
